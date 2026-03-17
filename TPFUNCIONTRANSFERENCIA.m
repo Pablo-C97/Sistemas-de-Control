@@ -10,7 +10,7 @@ close all;
 
 R_ha = 0.377;        % Resistencia térmica [°C/W]
 C_t = 19130;         % Capacidad térmica [J/°C]
-tau = R_ha * C_t;    % Constante de tiempo (7472.14 s)
+tau = R_ha * C_t;    % Constante de tiempo (7212.01 s)
 
 K_s = 0.00435;       % Ganancia del sensor [V/°C]
 K_a = 600;           % Ganancia del actuador [W/V]
