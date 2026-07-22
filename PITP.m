@@ -64,7 +64,7 @@ grid on;
 title(['Respuesta Temporal del Horno (Setpoint: ', num2str(T_objetivo), ' °C)']);
 xlabel('Tiempo (segundos)');
 ylabel('Temperatura (Celsius)');
-legend('Respuesta del Horno', 'Consigna (1150 °C)', 'Location', 'southeast');
+legend('Respuesta del Horno', 'Referencia (1150 °C)', 'Location', 'southeast');
 xlim([0 45000]);
 hold off;
 
