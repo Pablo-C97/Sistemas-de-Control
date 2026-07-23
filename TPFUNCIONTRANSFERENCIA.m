@@ -141,7 +141,7 @@ fprintf('\n--- RESULTADOS DE VALIDACION ---');
 fprintf('\nTiempo para Ts (98%%): %.0f s (%.2f horas)', tiempo_ts_seg, tiempo_ts_seg/3600);
 fprintf('\n--- COMPARACION 91.3%% (Tmax-100) ---');
 fprintf('\nTiempo objetivo fabricante: %d s', t_fabricante);
-fprintf('\nTiempo real de tu modelo:   %.0f s', t_modelo_91);
+fprintf('\nTiempo real del modelo:   %.0f s', t_modelo_91);
 fprintf('\nDiferencia: %.2f min\n', (t_modelo_91 - t_fabricante)/60);
 hold off;
 
